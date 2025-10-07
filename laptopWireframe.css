@@ -1,0 +1,21 @@
+body {
+    background-color: #4c4847;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#HeaderContainer {
+  background-color: #010101;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
