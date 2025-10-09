@@ -32,6 +32,7 @@ html, body {
 
 #TabContainer nav {
 	margin-top: 8px;
+	margin-bottom: 40px;
 	display: grid;
 	grid-template-columns: repeat(4, minmax(0px, 300px));
 	justify-content: center;
@@ -70,13 +71,21 @@ h2 {
 	font-size: xx-large;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #d7a527;
-	margin-top: 80px;
+	margin-top: 60px;
 	text-underline-offset: 5px;
+}
+
+#TopHeader {
+	margin-top: 120px;
 }
 
 #Section-1-With-Image-Container {
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	gap: 50px;
+	flex-wrap: wrap;
+	margin-bottom: 90px;
 }
 
 #Section-1 {
@@ -88,7 +97,6 @@ h2 {
 	width: 525px;
 	height: 150px;
 	padding: 20px 40px;
-	margin-left: 25%;
 	min-width: 500px;
 }
 
@@ -98,7 +106,6 @@ h2 {
 	border: 3px solid black;
 	border-radius: 10px;
 	box-shadow: 0 0 6px black;
-	margin-left: 50px;
 }
 
 #Image-1-Container img {
@@ -110,7 +117,11 @@ h2 {
 
 #Section-2-With-Image-Container {
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	gap: 50px;
+	flex-wrap: wrap;
+	margin-bottom: 90px;
 }
 
 #Section-2 {
@@ -123,7 +134,6 @@ h2 {
 	min-width: 500px;
 	height: 150px;
 	padding: 20px 40px;
-	margin-left: 50px;
 }
 
 #Image-2-Container {
@@ -132,7 +142,6 @@ h2 {
 	border: 3px solid black;
 	border-radius: 10px;
 	box-shadow: 0 0 6px black;
-	margin-left: 25%;
 }
 
 #Image-2-Container img {
