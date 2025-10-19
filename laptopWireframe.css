@@ -18,6 +18,8 @@ html, body {
 	padding: 20px;
 	text-align: center;
 	box-shadow: 0 2px 5px rgb(0, 0, 0);
+	position: sticky;
+	top: 0;
 }
 
 #TabContainer {
@@ -26,29 +28,34 @@ html, body {
 	background-color: #131111;
 	color: whitesmoke;
 	padding: 12px 0;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.74);
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.781);
 	display: grid;
+	position: sticky;
+	top: 140.59px;
 }
 
 #TabContainer nav {
-	margin-top: 8px;
-	margin-bottom: 40px;
 	display: grid;
 	grid-template-columns: repeat(4, minmax(0px, 300px));
 	justify-content: center;
+	align-content: center;
+	white-space: nowrap;
+	position: sticky;
+	top: 0;
 }
 
 .tab-button {
-	padding: 4px 20px;
+	padding: 4px 15px;
 	font-size: 12px;
+	width: auto;
 	background-color: transparent;
 	border: 1px solid transparent;
 	color: whitesmoke;
+	text-align: center;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background 0.2s ease, border-color 0.2s ease, text-shadow 0.2s ease, color 0.2s ease;
 	justify-self: center;
-	width: 120px;
 }
 
 .tab-button:hover {
@@ -75,7 +82,9 @@ h2 {
 	text-underline-offset: 5px;
 }
 
-#TopHeader {
+#User Guide,
+#FAQs
+#Troubleshooting {
 	margin-top: 120px;
 }
 
