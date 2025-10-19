@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Laptop Documentation</title>
-		<link rel="stylesheet" href="laptopWireframe.css" />
-		<link rel="icon" href="laptopFavicon.png" type="image/png">
-	</head>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Laptop Documentation</title>
+	<link rel="stylesheet" href="laptopWireframe.css" />
+	<link rel="icon" href="laptopFavicon.png" type="image/png">
+</head>
 
-	<body id="Home">
-		
+<body id="Home">
 	<header id = 'HeaderContainer'>
 		<h1>Laptop Documentation</h1>
 	</header>
+
 	<div id="TabContainer">
 		<nav>
-		<button class="tab-button" onclick="navigateTo('Home')">Home</button>
-		<button class="tab-button" onclick="navigateTo('User Guide')">User Guide</button> 
-		<button class="tab-button" onclick="navigateTo('Troubleshooting')">Troubleshooting</button>
-		<button class="tab-button" onclick="navigateTo('FAQs')">FAQs</button>
+			<a href="index.html" class="active-tab">Home</a>
+			<a href="tab1.html">User Guide</a>
+			<a href="tab2.html">Troubleshooting</a>
+			<a href="tab3.html">FAQs</a>
 		</nav>
 	</div>
+
 	<div id="User Guide"></div>
 	<h2 style="text-decoration: underline #d7a527;">User Guide</h2>
 	<section id="Section-1-With-Image-Container">
@@ -31,6 +32,7 @@
 		<img src="Image.jpg" alt="Example Image">
 		</div>
 	</section>
+	
 	<hr width="80%">
 	<h2 style="text-decoration: underline #d7a527;" id="FAQs">Troubleshooting</h2>
 	<section id="Section-2-With-Image-Container">
@@ -41,22 +43,23 @@
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</div>
 	</section>
+
 	<hr width="80%">
 	<h2 style="text-decoration: underline #d7a527;" id="Troubleshooting">FAQs</h2>
 	<section id="Section-3">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 	</section>
+
 	<footer>
 		<h2>Contact Us!</h2>
-	<div>
-		<nav class="ContactContainer">
-		<a href ="mailto:epicemail@appstate.edu"> Email</a> |
-		<a href="https://youtube.com/channel/epicchannel">Youtube</a> |
-		<a href="https://twitter.com/epictwitter">Twitter</a> |
-		<a href="https://facebook.com/epicfacebook">Facebook</a>
-		</nav>
-	</div>
+		<div>
+			<nav class="ContactContainer">
+			<a href ="mailto:epicemail@appstate.edu"> Email</a> |
+			<a href="https://youtube.com/channel/epicchannel">Youtube</a> |
+			<a href="https://twitter.com/epictwitter">Twitter</a> |
+			<a href="https://facebook.com/epicfacebook">Facebook</a>
+			</nav>
+		</div>
 	</footer>
-	<script src="laptopWireframe.js" defer></script>
-	</body>
+</body>
 </html>
