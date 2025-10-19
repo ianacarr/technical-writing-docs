@@ -48,7 +48,7 @@ html, body {
 	cursor: pointer;
 	transition: background 0.2s ease, border-color 0.2s ease, text-shadow 0.2s ease, color 0.2s ease;
 	justify-self: center;
-	width: 100px;
+	width: 120px;
 }
 
 .tab-button:hover {
