@@ -22,10 +22,9 @@ a:hover {
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
 	font-size: 18px;
-	width: 525px;
+	max-width: 525px;
 	height: auto;
 	padding: 20px 40px;
-	min-width: 500px;
 }
 
 .Section-1 ul li,
@@ -62,9 +61,8 @@ a:hover {
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
 	font-size: 18px;
-	width: 525px;
+	max-width: 525px;
 	height: auto;
-	min-width: 500px;
 	padding: 20px 40px;
 }
 
