@@ -6,6 +6,9 @@ a:hover {
 	color: red;
 }
 
+h2{
+	text-decoration: underline;
+}
 
 .Section-1-With-Image-Container {
 	display: flex;

@@ -7,6 +7,10 @@ h1 {
 	font-size: 40px;
 }
 
+h2 {
+	text-decoration: underline #d7a527;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
