@@ -149,6 +149,10 @@ h2 {
 	padding: 20px 40px;
 }
 
+#Section-2 li {
+	margin-left: 20px;
+}
+
 #Image-2-Container {
 	width: 317px;
 	min-width: 317px;
