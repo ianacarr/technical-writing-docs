@@ -102,7 +102,7 @@ h2 {
 	margin-bottom: 90px;
 }
 
-#Section-1 {
+#UG-Section {
 	background-color: #131111;
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
@@ -137,7 +137,7 @@ h2 {
 	margin-bottom: 90px;
 }
 
-#Section-2 {
+#TS-Section {
 	background-color: #131111;
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
@@ -164,7 +164,7 @@ h2 {
   border-radius: 10px;
 }
 
-#Section-3 {
+#FAQ-Section {
 	background-color: #131111;
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
@@ -176,6 +176,9 @@ h2 {
 	padding-right: 30px;
 	margin: auto;
 	max-width: 1000px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 footer {
