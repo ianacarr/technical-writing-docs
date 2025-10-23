@@ -1,0 +1,26 @@
+a {
+	color: pink;
+}
+
+a:hover {
+	color: red;
+}
+
+h2{
+	text-decoration: underline #d7a527;
+}
+
+#Section-1-FAQs {
+	background-color: #131111;
+	border-radius: 10px;
+	box-shadow: 0px 0px 6px #010101;
+	color: whitesmoke;
+	font-size: 18px;
+	max-width: 960px;
+	height: auto;
+	padding: 20px 40px;
+	margin-bottom: 90px;
+	min-width:150px;
+	justify-content: center;
+	justify-self: center;
+}
