@@ -26,19 +26,18 @@ h2{
 	color: whitesmoke;
 	font-size: 18px;
 	max-width: 525px;
-	height: auto;
+	height: 150px;
 	padding: 20px 40px;
 }
 
 .Image-1-Container {
-	max-height: 160px;
-	min-width: 305px;
-	max-width: 305px;
+	width: 317px;
+	min-width: 317px;
 }
 
 .Image-1-Container img {
-	width: 305px;
-	height: 160px;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	border-radius: 10px;
 	border: 3px solid black;
@@ -61,7 +60,6 @@ h2{
 	color: whitesmoke;
 	font-size: 18px;
 	max-width: 525px;
-	height: auto;
 	padding: 20px 40px;
 }
 
@@ -91,7 +89,6 @@ h2{
 	padding-right: 30px;
 	margin: auto;
 	max-width: 1000px;
-	height: auto;
 }
 
 ol {
