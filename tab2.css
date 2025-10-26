@@ -1,9 +1,10 @@
 a {
-	color: pink;
+	color: #ffea95;
 }
 
 a:hover {
-	color: red;
+	color: #ffd119;
+	text-shadow: 0 0 4px #ffcc00a6;
 }
 
 h2{
@@ -165,7 +166,7 @@ h2{
 }
 
 
-.Long-Section {
+.End-Section {
 	background-color: #131111;
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
@@ -176,7 +177,11 @@ h2{
 	padding-left: 30px;
 	padding-right: 30px;
 	margin: auto;
-	max-width: 1000px;
+	max-width: 907px;
+}
+
+.End-Section li {
+	color: #ffea95;
 }
 
 ol {

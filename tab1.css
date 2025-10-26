@@ -1,9 +1,10 @@
 a {
-	color: pink;
+	color: #ffea95;
 }
 
 a:hover {
-	color: red;
+	color: #ffd119;
+	text-shadow: 0 0 4px #ffcc00a6;
 }
 
 h2{
