@@ -11,6 +11,12 @@ h2 {
 	text-decoration: underline #d7a527;
 }
 
+.Header-Link {
+	color: #d7a527;
+	font-size: 32px;
+	text-decoration: underline #d7a527;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
