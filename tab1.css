@@ -15,7 +15,7 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
-	gap: 65px;
+	gap: 70px;
 	flex-wrap: wrap;
 	margin-bottom: 90px;
 }
@@ -25,7 +25,7 @@ h2{
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 18px;
+	font-size: 20px;
 	max-width: 525px;
 	padding: 20px 40px;
 	justify-content: left;
@@ -34,15 +34,14 @@ h2{
 .Image-1-Container-UG {
 	justify-content: right;
 	flex: 1;
-	max-height: 160px;
-	min-width: 289px;
-	max-width: 289px;
+	max-height: 154px;
+	min-width: 280px;
+	max-width: 280px;
 }
 
 .Image-1-Container-UG img {
-	max-height: 160px;
-	min-width: 289px;
-	max-width: 289px;
+	height: 100%;
+	width: 100%;
 	object-fit: cover;
 	border-radius: 10px;
 	border: 3px solid black;
@@ -112,7 +111,7 @@ h2{
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 18px;
+	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
