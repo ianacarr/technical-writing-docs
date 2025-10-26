@@ -1,9 +1,10 @@
 a {
-	color: pink;
+	color: #ffea95;
 }
 
 a:hover {
-	color: red;
+	color: #ffd119;
+	text-shadow: 0 0 4px #ffcc00a6;
 }
 
 h2{
@@ -15,7 +16,7 @@ h2{
 	justify-content: center;
 	align-items: stretch;
 	flex-wrap: wrap;
-	gap: 69.5px;
+	gap: 60px;
 	margin-bottom: 90px;
 }
 
@@ -24,9 +25,8 @@ h2{
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 18px;
+	font-size: 20px;
 	max-width: 525px;
-	height: auto;
 	padding: 20px 40px;
 	min-width:150px;
 	justify-content: left;
@@ -35,9 +35,9 @@ h2{
 .Image-1-Container {
 	justify-content: right;
 	flex: 1;
-	max-height: 187px;
-	min-width: 280.5px;
-	max-width: 280.5px;
+	max-height: 197px;
+	min-width: 285px;
+	max-width: 285px;
 }
 
 .Image-1-Container img {
@@ -72,7 +72,6 @@ h2{
 	color: whitesmoke;
 	font-size: 18px;
 	max-width: 525px;
-	height: auto;
 	padding: 20px 40px;
 	min-width:150px;
 	justify-content: left;
@@ -98,7 +97,7 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
-	gap: 100px;
+	gap: 90px;
 	flex-wrap: wrap;
 	margin-bottom: 90px;
 }
@@ -108,18 +107,17 @@ h2{
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 18px;
+	font-size: 20px;
 	width: 576px;
-	height: auto;
 	padding: 20px 40px;
 	min-width: 500px;
 }
 
 .Image-3-Container {
 	flex: 1;
-	max-height: 199px;
-	min-width: 199px;
-	max-width: 199px;
+	max-height: 209px;
+	min-width: 209px;
+	max-width: 209px;
 }
 
 .Image-3-Container img {
@@ -135,7 +133,7 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
-	gap: 100px;
+	gap: 90px;
 	flex-wrap: wrap;
 	margin-bottom: 90px;
 }
@@ -145,18 +143,17 @@ h2{
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 18px;
+	font-size: 20px;
 	width: 576px;
-	height: auto;
 	padding: 20px 40px;
 	min-width: 500px;
 }
 
 .Image-4-Container {
 	flex: 1;
-	max-height: 199px;
-	min-width: 199px;
-	max-width: 199px;
+	max-height: 209px;
+	min-width: 209px;
+	max-width: 209px;
 }
 
 .Image-4-Container img {
@@ -169,18 +166,22 @@ h2{
 }
 
 
-.Long-Section {
+.End-Section {
 	background-color: #131111;
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 18px;
+	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin: auto;
-	max-width: 1000px;
+	max-width: 900px;
+}
+
+.End-Section li {
+	color: #ffea95;
 }
 
 ol {

@@ -11,6 +11,12 @@ h2 {
 	text-decoration: underline #d7a527;
 }
 
+.Header-Link {
+	color: #d7a527;
+	font-size: 32px;
+	text-decoration: underline #d7a527;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -50,7 +56,7 @@ html, body {
 
 #TabContainer nav a {
 	padding: 4px 15px;
-	font-size: 12px;
+	font-size: 14px;
 	width: auto;
 	background-color: transparent;
 	border: 1px solid transparent;
@@ -96,9 +102,9 @@ h2 {
 #Section-1-With-Image-Container {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	gap: 50px;
+	align-items: stretch;
 	flex-wrap: wrap;
+	gap: 95px;
 	margin-bottom: 90px;
 }
 
@@ -107,15 +113,16 @@ h2 {
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 24px;
+	font-size: 20px;
 	max-width: 525px;
-	height: 150px;
 	padding: 20px 40px;
+	min-width:150px;
+	justify-content: left;
 }
 
 #Image-1-Container {
-	width: 317px;
-	max-width: 250px;
+	width: 200px;
+	max-width: 200px;
 	border: 3px solid black;
 	border-radius: 10px;
 	box-shadow: 0 0 6px black;
@@ -131,9 +138,9 @@ h2 {
 #Section-2-With-Image-Container {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	gap: 50px;
+	align-items: stretch;
 	flex-wrap: wrap;
+	gap: 50px;
 	margin-bottom: 90px;
 }
 
@@ -142,16 +149,16 @@ h2 {
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 19px;
-	width: 525px;
-	min-width: 500px;
-	height: 150px;
+	font-size: 20px;
+	max-width: 525px;
 	padding: 20px 40px;
+	min-width:150px;
+	justify-content: left;
 }
 
 #Image-2-Container {
-	width: 317px;
-	min-width: 317px;
+	width: 245px;
+	min-width: 245;
 	border: 3px solid black;
 	border-radius: 10px;
 	box-shadow: 0 0 6px black;
@@ -169,7 +176,7 @@ h2 {
 	border-radius: 10px;
 	box-shadow: 0px 0px 6px #010101;
 	color: whitesmoke;
-	font-size: 18px;
+	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 30px;
